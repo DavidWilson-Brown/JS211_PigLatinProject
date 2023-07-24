@@ -48,8 +48,8 @@ const pigLatin = (word) => {
       // and finally add 'ay' to the end of the new word
       return word.slice(letter) + word.slice(0, letter) + 'ay';
     }
-    // return word + 'ay';
   }
+  return word + 'ay';
 };
 
 // the first function called in the program to get an input from the user
